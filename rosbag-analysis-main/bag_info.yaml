@@ -1,0 +1,31 @@
+compressed: 785242737
+compression: lz4
+duration: 317.201403
+end: 1711497412.185186
+indexed: true
+messages: 25862
+path: rosbags/record_2024_03_27_10_51_34.bag
+size: 785972736
+start: 1711497094.983782
+topics:
+- frequency: 25.1027
+  messages: 8812
+  topic: /audio
+  type: audio_common_msgs/AudioData
+- frequency: 50.3038
+  messages: 15859
+  topic: /joint_states
+  type: sensor_msgs/JointState
+- frequency: 3.7532
+  messages: 1191
+  topic: /xtion/rgb/image_raw_throttled
+  type: sensor_msgs/Image
+types:
+- md5: f43a8e1b362b75baa741461b46adc7e0
+  type: audio_common_msgs/AudioData
+- md5: 060021388200f6f0f447d0fcd9c64743
+  type: sensor_msgs/Image
+- md5: 3066dcd76a6cfaef579bd0f34173e9fd
+  type: sensor_msgs/JointState
+uncompressed: 1114848357
+version: 2.0
